@@ -1,1 +1,29 @@
+task-1 : perform basic mathematical operation:-
 
+#two numbers as input from the user
+num1 = float(input("Enter the first number: "))
+num2 = float(input("Enter the second number: "))
+
+# Perform basic mathematical operations
+addition = num1 + num2
+subtraction = num1 - num2
+multiplication = num1 * num2
+division = num1 / num2
+
+# display the results of each
+print(addition)
+print(subtraction)
+print(multiplication)
+print(division)
+
+task-2: create a personalized greeting
+
+# Take user's first name and last name as input
+first_name = input("Enter your first name: ")
+last_name = input("Enter your last name: ")
+
+# Concatenate first name and last name
+full_name = first_name + " " + last_name
+
+# Print personalized greeting
+print("Hello,", full_name + "! Welcome to the Python program.")
